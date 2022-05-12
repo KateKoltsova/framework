@@ -8,7 +8,7 @@ return [
     'components' => [
         'router' => [
             //'factory' => \Aigletter\Framework\Components\Routing\RouterFactory::class,
-            'factory' => \Aigletter\App\Components\Routing\RouterFactory::class,
+            'factory' => \Koltsova\Router\RouterFactory::class,
         ],
         'cache' => [
             'factory' => \Aigletter\Framework\Components\Caching\CacheFactory::class,

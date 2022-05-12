@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8a15897e5eec133d868e5c97f9e719d",
+    "content-hash": "179551114b89f1e6181188d865e5686b",
     "packages": [
         {
             "name": "aigletter/contracts",
@@ -45,6 +45,47 @@
                 "source": "https://github.com/aigletter/contracts/tree/1.0.2"
             },
             "time": "2022-05-02T20:50:26+00:00"
+        },
+        {
+            "name": "koltsova/router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KateKoltsova/Router.git",
+                "reference": "c562fe6ad3746fdf125cdeb90bd2451ae3f90f21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KateKoltsova/Router/zipball/c562fe6ad3746fdf125cdeb90bd2451ae3f90f21",
+                "reference": "c562fe6ad3746fdf125cdeb90bd2451ae3f90f21",
+                "shasum": ""
+            },
+            "require": {
+                "aigletter/contracts": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Koltsova\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kate Koltsova",
+                    "email": "kate.petronyuk@gmail.com"
+                }
+            ],
+            "description": "Router",
+            "support": {
+                "issues": "https://github.com/KateKoltsova/Router/issues",
+                "source": "https://github.com/KateKoltsova/Router/tree/master"
+            },
+            "time": "2022-05-13T10:13:00+00:00"
         },
         {
             "name": "mursalov/logger",
@@ -195,7 +236,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mursalov/logger": 20
+        "mursalov/logger": 20,
+        "koltsova/router": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
