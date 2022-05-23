@@ -6,6 +6,7 @@ class PageController
 {
     public function infoClass()
     {
-        echo 'I using this Class PageController';
+//        echo 'I using this Class PageController';
+        throw new \Exception('Exception!!!', 500);
     }
 }
