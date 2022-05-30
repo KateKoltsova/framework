@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KateKoltsova/Router.git",
-                "reference": "c562fe6ad3746fdf125cdeb90bd2451ae3f90f21"
+                "reference": "2618b3ffe754eca55130074888319964638c21ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KateKoltsova/Router/zipball/c562fe6ad3746fdf125cdeb90bd2451ae3f90f21",
-                "reference": "c562fe6ad3746fdf125cdeb90bd2451ae3f90f21",
+                "url": "https://api.github.com/repos/KateKoltsova/Router/zipball/2618b3ffe754eca55130074888319964638c21ea",
+                "reference": "2618b3ffe754eca55130074888319964638c21ea",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "issues": "https://github.com/KateKoltsova/Router/issues",
                 "source": "https://github.com/KateKoltsova/Router/tree/master"
             },
-            "time": "2022-05-13T10:13:00+00:00"
+            "time": "2022-05-31T12:38:59+00:00"
         },
         {
             "name": "mursalov/logger",

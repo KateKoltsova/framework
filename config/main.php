@@ -9,6 +9,9 @@ return [
         'router' => [
             //'factory' => \Aigletter\Framework\Components\Routing\RouterFactory::class,
             'factory' => \Koltsova\Router\RouterFactory::class,
+            'arguments' => [
+                'routes' => __DIR__ . '/../routes/routes.php'
+            ]
         ],
         'cache' => [
             'factory' => \Aigletter\Framework\Components\Caching\CacheFactory::class,
